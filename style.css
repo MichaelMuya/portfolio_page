@@ -50,5 +50,17 @@ a:hover{
     text-decoration: transparent;
 }
 .name{
-    font-size: 10 rem;
+    font-size: 3 rem;
+}
+
+.menu{
+    display: none;
+}
+.click{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
+
 }
