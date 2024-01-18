@@ -34,4 +34,6 @@ nav{
 
 .links{
     gap: 2rem;
+    list-style: none;
+    font-size: 2 rem;
 }
