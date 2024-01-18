@@ -31,3 +31,7 @@ nav{
     align-items: center;
     height: 17vh;
 }
+
+.links{
+    gap: 2rem;
+}
