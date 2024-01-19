@@ -1,6 +1,10 @@
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 
-
+@media screen and (max-width: 800px){
+    #main{
+        display: none;
+    }
+}
 *{
     margin: 0;
     padding: 0;
@@ -62,5 +66,4 @@ a:hover{
     justify-content: space-between;
     height: 30px;
     width: 30px;
-
 }
