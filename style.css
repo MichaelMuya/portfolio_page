@@ -68,10 +68,11 @@ a:hover{
     width: 30px;
     cursor: pointer;
 }
-.links{
+.menu_links{
     background-color: white;
-    width: fit-content;
+    width: 100%;
     position: absolute;
+    top: 60 px;
 }
 .icon_click span{
     display: block;
