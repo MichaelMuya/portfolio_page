@@ -60,10 +60,28 @@ a:hover{
 .menu{
     display: none;
 }
-.click{
+.icon_click{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 30px;
     width: 30px;
+    cursor: pointer;
+}
+.links{
+    background-color: white;
+    width: fit-content;
+    position: absolute;
+}
+.icon_click span{
+    display: block;
+    height: 5px;
+    width: 30px;
+    margin: 6px 0;
+    background-color: black;
+    top: auto;
+    overflow: hidden;
+}
+.icon{
+    display: block;
 }
