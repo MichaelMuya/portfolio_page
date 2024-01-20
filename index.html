@@ -6,6 +6,7 @@
     <title>Muya's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="script.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
@@ -22,7 +23,7 @@
     <nav id="icon">
         <div class="name">Michael Muya's Portfolio</div>
         <div class="icon">
-            <div class="click" onclick="toggleMenu()"></div>
+            <div class="icon_click" onclick="toggleMenu()"></div>
             <span></span>
             <span></span>
             <span></span>
@@ -33,6 +34,37 @@
             <li><a href="project" onclick="toggleMenu()">Project</a></li>
         </div>
     </nav>
-    <script src="script.js"></script>
+    <section id="profile">
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Michael Muya</h1>
+          <p class="section__text__p2">software developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/resume-example.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
+          </div>
+        </div>
+      </section>
 </body>
 </html>
