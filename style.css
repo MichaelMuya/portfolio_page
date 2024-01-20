@@ -50,7 +50,11 @@ a:hover{
     text-decoration: transparent;
 }
 .name{
-    font-size: 3 rem;
+    font-size: 24px; 
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-right: 20px;
 }
 /* menu*/
 .menu, .icon{
@@ -78,7 +82,6 @@ position: absolute;
     text-align: center;
     font-size: 1.5rem;
     text-decoration: none;
-    
 }
 .icon_click span{
     height: 4px;
