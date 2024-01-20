@@ -1,3 +1,7 @@
-document.querySelector('.icon_click').addEventListener('click', function() {
-    document.querySelector('.menu').classList.toggle('active');
-});
+function alt() {
+    const menu_link = documet.querySelector(".menu_links")
+    const icon = documet.querySelector(".icon_click")
+
+    menu_link.classList.toggle("open")
+    icon.classList.toggle()
+}
